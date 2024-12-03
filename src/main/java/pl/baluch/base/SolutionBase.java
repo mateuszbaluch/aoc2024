@@ -14,8 +14,9 @@ public abstract class SolutionBase {
     private final int dayNumber;
 
     protected void solve() {
-        System.out.println("Part 1: " + solvePart1(readLines("/day" + dayNumber + "/input1.txt")));
-        System.out.println("Part 2: " + solvePart2(readLines("/day" + dayNumber + "/input2.txt")));
+        var data = readLines("/day" + dayNumber + "/input.txt");
+        System.out.println("Part 1: " + solvePart1(data));
+        System.out.println("Part 2: " + solvePart2(data));
     }
 
     abstract protected String solvePart1(List<String> data);

@@ -14,7 +14,7 @@ public class Day2SolutionTests {
     @Test
     void part1ExampleTest() {
         // given
-        var data = SolutionBase.readLines("/day2/example1.txt");
+        var data = SolutionBase.readLines("/day2/example.txt");
         // when
         var result = solution.solvePart1(data);
         // then
@@ -24,7 +24,7 @@ public class Day2SolutionTests {
     @Test
     void part2ExampleTest() {
         // given
-        var data = SolutionBase.readLines("/day2/example2.txt");
+        var data = SolutionBase.readLines("/day2/example.txt");
         // when
         var result = solution.solvePart2(data);
         // then
